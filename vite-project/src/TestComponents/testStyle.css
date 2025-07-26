@@ -1,0 +1,20 @@
+body{
+    font-size: 2rem;
+}
+
+#name, #review, #addTime{
+    margin: 20px;
+    padding: 7px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#review{
+    width: 50vw;
+    height: 500px;
+}
+
+button:disabled{
+    cursor:auto;
+    background-color:rgba(56, 56, 56, 0.116)
+}
