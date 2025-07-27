@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './testStyle.css';
+
 function RateDungeon(){
     const [username, setUsername] = useState('');
     const [message, setMessage] = useState('');
@@ -24,7 +25,7 @@ function RateDungeon(){
     }
 
     return(
-    <div>
+    <div id="rateExp">
         <hr></hr>
         <form  onSubmit={submitForm}>
             <h1>Rate your dungeon experience:</h1>
@@ -37,7 +38,7 @@ function RateDungeon(){
         <br/>
         <h2>Your message:</h2>
         <h3>{username}</h3>
-        <h4>{message}</h4>
+        <h4 id="userMessage">{message}</h4>
     </div>
     );
 }

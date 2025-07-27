@@ -18,3 +18,13 @@ button:disabled{
     cursor:auto;
     background-color:rgba(56, 56, 56, 0.116)
 }
+
+#rateExp{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userMessage{
+    width: 80vw;
+}
