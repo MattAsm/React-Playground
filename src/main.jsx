@@ -8,8 +8,8 @@ import Quests from './Quests.jsx';
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/quests" element={<Quests />}/>
+      <Route path="/React-Playground" element={<App />} />
+      <Route path="/React-Playground/quests" element={<Quests />}/>
     </Routes>
   </BrowserRouter>,
 )
