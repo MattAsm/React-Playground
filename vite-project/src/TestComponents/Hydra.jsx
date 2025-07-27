@@ -25,7 +25,7 @@ function HydraTimer(){
 
     return(
         <div>
-            <h1>Choose length of timer (in minutes): </h1>
+            <h1>Choose length of dungeon (in minutes): </h1>
             <form onSubmit={submitForm}>
                 <input type="number" id="addTime" placeholder='5'/>
                 <button type='submit'>Add Timer</button>
@@ -40,10 +40,3 @@ function HydraTimer(){
 }
 
 export default HydraTimer;
-
-/**
-    {Array.from(timerArray).map(element => {
-            <TimerComponent time={element}/>
-            console.log(element + ": element");
-    })} 
-*/
